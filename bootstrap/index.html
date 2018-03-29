@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="manifest.json" rel="manifest"/>
+</head>
+
+<body>
+
+    
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+            <div class="md-form mt-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+
+
+<!--Carousel Wrapper-->
+<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+        <li data-target="#video-carousel-example" data-slide-to="1"></li>
+        <li data-target="#video-carousel-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="carousel-item">
+            <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="carousel-item">
+            <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--Carousel Wrapper-->
+
+<div class="container"></div>
+<div class="row">
+    <div class="col">
+        <!--Card-->
+<div class="card">
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Others/food.jpg" class="img-fluid" alt="sample">
+            <a>
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+        <!--Button-->
+        <a class="btn-floating btn-action ml-auto mr-4 mdb-color lighten-3"><i class="fa fa-chevron-right pl-1"></i></a>
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <hr>
+            <!--Text-->
+            <p class="font-small grey-dark-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <!--/.Card content-->
+        <!-- Card footer -->
+        <div class="mdb-color lighten-3 text-center">
+            <ul class="list-unstyled list-inline font-small mt-3">
+                <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>05/10/2015</li>
+                <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+                <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-facebook pr-1"> </i>21</a></li>
+                <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-twitter pr-1"> </i>5</a></li>
+            </ul>
+        </div>
+        <!-- Card footer -->
+    </div>
+    <!--/.Card-->
+    </div>
+
+    <div class="col">
+            <div class="card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/food.jpg" class="img-fluid" alt="sample">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+                    <!--Button-->
+                    <a class="btn-floating btn-action ml-auto mr-4 mdb-color lighten-3"><i class="fa fa-chevron-right pl-1"></i></a>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Card title</h4>
+                        <hr>
+                        <!--Text-->
+                        <p class="font-small grey-dark-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <!--/.Card content-->
+                    <!-- Card footer -->
+                    <div class="mdb-color lighten-3 text-center">
+                        <ul class="list-unstyled list-inline font-small mt-3">
+                            <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>05/10/2015</li>
+                            <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+                            <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-facebook pr-1"> </i>21</a></li>
+                            <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-twitter pr-1"> </i>5</a></li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                </div>
+    </div>
+
+    <div class="col">
+       <!--Card-->
+<div class="card">
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Others/food.jpg" class="img-fluid" alt="sample">
+            <a>
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+        <!--/.Card image-->
+        <!--Button-->
+        <a class="btn-floating btn-action ml-auto mr-4 mdb-color lighten-3"><i class="fa fa-chevron-right pl-1"></i></a>
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <hr>
+            <!--Text-->
+            <p class="font-small grey-dark-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <!--/.Card content-->
+        <!-- Card footer -->
+        <div class="mdb-color lighten-3 text-center">
+            <ul class="list-unstyled list-inline font-small mt-3">
+                <li class="list-inline-item pr-2 white-text"><i class="fa fa-clock-o pr-1"></i>05/10/2015</li>
+                <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-comments-o pr-1"></i>12</a></li>
+                <li class="list-inline-item pr-2"><a href="#" class="white-text"><i class="fa fa-facebook pr-1"> </i>21</a></li>
+                <li class="list-inline-item"><a href="#" class="white-text"><i class="fa fa-twitter pr-1"> </i>5</a></li>
+            </ul>
+        </div>
+        <!-- Card footer -->
+    </div>
+    <!--/.Card-->
+    </div>
+</div>
+
+
+<div class="col">
+    <!--Card-->
+    <div class="card card-cascade">
+
+            <!--Card image-->
+            <div class="view gradient-card-header blue-gradient">
+                <h2 class="h2-responsive">Heading</h2>
+                <p>Subheading</p>
+            </div>
+            <!--/Card image-->
+    
+            <!--Card content-->
+            <div class="card-body text-center">
+    
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi
+                    sunt, quod quibusdam dignissimos neque rem nihil ratione est placeat vel, natus non quos laudantium
+                    veritatis sequi.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                    laboriosam.</p>
+            </div>
+            <!--/.Card content-->
+    
+        </div>
+        <!--/.Card-->
+</div>
+
+<ul class="nav md-pills nav-justified pills-secondary">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+        </li>
+    </ul>
+    
+    <!-- Tab panels -->
+    <div class="tab-content">
+    
+        <!--Panel 1-->
+        <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+            <br>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+    
+        </div>
+        <!--/.Panel 1-->
+    
+        <!--Panel 2-->
+        <div class="tab-pane fade" id="panel12" role="tabpanel">
+            <br>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+    
+        </div>
+        <!--/.Panel 2-->
+    
+        <!--Panel 3-->
+        <div class="tab-pane fade" id="panel13" role="tabpanel">
+            <br>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+    
+        </div>
+        <!--/.Panel 3-->
+    
+        <!--Panel 4-->
+        <div class="tab-pane fade" id="panel14" role="tabpanel">
+            <br>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                porro voluptate odit minima.</p>
+    
+        </div>
+        <!--/.Panel 4-->
+    
+    </div>
+<div class="row">
+    <div class="col">
+        
+<!-- Default form login -->
+<form>
+        <p class="h4 text-center mb-4">Sign in</p>
+    
+        <!-- Default input email -->
+        <label for="defaultFormLoginEmailEx" class="grey-text">Your email</label>
+        <input type="email" id="defaultFormLoginEmailEx" class="form-control">
+    
+        <br>
+    
+        <!-- Default input password -->
+        <label for="defaultFormLoginPasswordEx" class="grey-text">Your password</label>
+        <input type="password" id="defaultFormLoginPasswordEx" class="form-control">
+    
+        <div class="text-center mt-4">
+            <button class="btn btn-indigo" type="submit">Login</button>
+        </div>
+    </form>
+    <!-- Default form login -->
+                          
+    </div>
+    <div class="col">
+        
+<!-- Default form register -->
+<form>
+        <p class="h4 text-center mb-4">Sign up</p>
+    
+        <!-- Default input name -->
+        <label for="defaultFormRegisterNameEx" class="grey-text">Your name</label>
+        <input type="text" id="defaultFormRegisterNameEx" class="form-control">
+        
+        <br>
+    
+        <!-- Default input email -->
+        <label for="defaultFormRegisterEmailEx" class="grey-text">Your email</label>
+        <input type="email" id="defaultFormRegisterEmailEx" class="form-control">
+        
+        <br>
+    
+        <!-- Default input email -->
+        <label for="defaultFormRegisterConfirmEx" class="grey-text">Confirm your email</label>
+        <input type="email" id="defaultFormRegisterConfirmEx" class="form-control">
+    
+        <br>
+    
+        <!-- Default input password -->
+        <label for="defaultFormRegisterPasswordEx" class="grey-text">Your password</label>
+        <input type="password" id="defaultFormRegisterPasswordEx" class="form-control">
+    
+        <div class="text-center mt-4">
+            <button class="btn btn-unique" type="submit">Register</button>
+        </div>
+    </form>
+    <!-- Default form register -->
+                          
+    </div>
+
+
+</div>
+
+
+<script defer src="./main.js" async></script> 
+</body>
+
+</html>
+s
